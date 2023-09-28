@@ -1,0 +1,62 @@
+body {
+    background-color: gray;
+}
+
+header {
+    background-color: firebrick;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.header ul {
+    list-style-type: none;
+    float: right;
+}
+
+.header ul li {
+    display: flex;
+    flex-direction: row;
+    float: left;
+    margin: 1rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+}
+
+.about-me {
+    display: inline-flexbox;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 1rem;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.work {
+    display: inline-flexbox;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 1rem;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.contact {
+    display: inline-flexbox;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 1rem;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.contact ul {
+    list-style-type: none;
+}
