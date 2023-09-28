@@ -1,8 +1,14 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 body {
     background-color: gray;
 }
 
-header {
+.header {
     background-color: firebrick;
     display: flex;
     justify-content: space-between;
@@ -11,14 +17,27 @@ header {
 
 .header ul {
     list-style-type: none;
-    float: right;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .header ul li {
     display: flex;
-    flex-direction: row;
     float: left;
     margin: 1rem;
+}
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/IMG_20230907_141004_831.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+div {
+    display: block;
 }
 
 section {
