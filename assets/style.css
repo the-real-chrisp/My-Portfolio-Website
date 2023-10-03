@@ -28,6 +28,12 @@ body {
     flex-direction: column;
 }
 
+.header a button {
+    background-color: black;
+    color: white;
+    border-radius: .5rem;
+}
+
 /*Styling hero photo*/
 .hero {
     height: 800px;
