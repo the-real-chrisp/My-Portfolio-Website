@@ -1,28 +1,34 @@
+/*Styling for all*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*Styling page background to gray*/
 body {
     background-color: gray;
 }
 
+/*Styling for header*/
 .header {
     background-color: firebrick;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     padding: 1rem;
 }
 
+/*Styling for anchor elements inside the header*/
 .header a {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
+/*Styling hero photo*/
 .hero {
     height: 800px;
     width: 100%;
@@ -30,10 +36,6 @@ body {
     background-image: url("../images/IMG_20230907_141004_831.jpg");
     background-size: cover;
     background-position: center;
-}
-
-div {
-    display: block;
 }
 
 section {
