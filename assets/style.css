@@ -1,0 +1,127 @@
+/*Styling for all*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*Styling page background to gray*/
+body {
+    background-color: gray;
+}
+
+/*Styling for header*/
+.header {
+    background-color: firebrick;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+/*Styling for anchor elements inside the header*/
+.header ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header a button {
+    background-color: black;
+    color: white;
+    border-radius: .5rem;
+}
+
+/*Styling hero photo*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/IMG_20230907_141004_831.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/*Styling for section cards*/
+section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 1rem;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+/*Styling for about me article*/
+.about-me {
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 1rem;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+/*Styling for work article*/
+.work {
+    display: flex;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 1rem;
+    margin-top: 5px;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.work .horiseon-img {
+    width: 50%;
+    height: auto;
+}
+
+/*Styling for contact article*/
+.contact {
+    display: flex;
+    flex-direction: column;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 1rem;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+/*Styling for unordered list in contact article*/
+.contact ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*For images in contact article*/
+ul img {
+    width: 40px;
+}
+
+@media screen and (min-width: 768px){
+    .header {
+        flex-direction: row;
+    }
+
+    .header ul {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .contact ul {
+        display: flex;
+        flex-direction: row;
+    }
+}
