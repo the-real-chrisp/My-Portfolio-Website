@@ -7,13 +7,13 @@
 
 /*Styling page background to gray anbd font-family*/
 body {
-    background-color: gray;
+    background: linear-gradient(90deg, rgb(125, 125, 126) 0%, rgba(63,122,66,1) 50%, rgba(245,255,0,1) 100%);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /*Styling for header*/
 .header {
-    background-color: firebrick;
+    background: linear-gradient(90deg, rgb(125, 125, 126) 0%, rgba(63,122,66,1) 50%, rgba(245,255,0,1) 100%);
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -34,6 +34,7 @@ body {
     background-color: black;
     color: white;
     border-radius: .5rem;
+    padding: 5px;
 }
 
 /*Styling hero photo*/
@@ -77,13 +78,23 @@ section {
     border-radius: 1rem;
     margin-top: 5px;
     padding: 10px;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 /*Setting width and height for image*/
 .work .horiseon-img {
-    width: 50%;
+    width: 400px;
     height: auto;
+}
+
+.card {
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.card-main {
+    padding: 10px;
 }
 
 /*Styling for contact article*/
